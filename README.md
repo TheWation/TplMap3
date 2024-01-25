@@ -1,11 +1,52 @@
-Tplmap
+Tplmap3
 ======
 
-> This project is no longer maintained. I'm happy to merge new PRs as long they don't break the [test suite](https://github.com/epinna/tplmap/wiki/Run-the-test-suite).
+[![made-with-python](http://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![built-with-love](http://forthebadge.com/images/badges/built-with-love.svg)](https://gitHub.com/TheWation/)
 
+## What Changed ?
+While `tplmap` is considered `abandoned`, it still functions effectively.
+
+I've taken the initiative to update the project to Python 3 to ensure its compatibility with the latest language version. Although the project is not actively maintained, I've addressed the necessary changes for Python 3 support.
+
+if any issues arise, I commit to maintaining and resolving them in the future. Contributions from the community are welcome, and I appreciate any efforts to keep this project functional and relevant.
+
+## Ensuring Trust in TplMap3:
+
+The evolution of TplMap3 from its predecessor, Tplmap by epinna/tplmap, includes a Python 3 upgrade with a paramount focus on transparency.
+
+we invite users to scrutinize the detailed commit history that serves as a transparent record of the changes we made.
+
+## What is TplMap3
 Tplmap assists the exploitation of Code Injection and Server-Side Template Injection vulnerabilities with a number of sandbox escape techniques to get access to the underlying operating system.
 
 The tool and its test suite are developed to research the SSTI vulnerability class and to be used as offensive security tool during web application penetration tests.
+
+
+## Prerequisites
+
+- Python 3.7 or later
+- `pip` package manager
+
+
+## Installation
+
+### 1. Clone this repository:
+
+```bash
+git clone https://github.com/TheWation/TplMap3.git
+```
+
+```bash
+cd TplMap3
+```
+
+### 2. Install the required dependencies:
+```
+pip install -r requirements.txt
+```
+
+## 
 
 The sandbox break-out techniques came from James Kett's [Server-Side Template Injection: RCE For The Modern Web App][10], other public researches [\[1\]][1] [\[2\]][2], and original contributions to this tool [\[3\]][3] [\[4\]][4].
 
@@ -154,3 +195,7 @@ See [burp_extension/README.md](burp_extension/README.md).
 [11]: http://jinja.pocoo.org/
 [12]: http://flask.pocoo.org/
 [2]: https://opsecx.com/index.php/2016/07/03/server-side-template-injection-in-tornado/
+
+## License
+
+`Tplmap` was originally created by epinna/tplmap, and `TplMap3` has been upgraded with ♥ and care by [Wation](https://github.com/TheWation).
