@@ -7,7 +7,7 @@ Tplmap3
 ## What Changed ?
 While `tplmap` is considered `abandoned`, it still functions effectively.
 
-I've taken the initiative to update the project to Python 3 to ensure its compatibility with the latest language version. Although the project is not actively maintained, I've addressed the necessary changes for Python 3 support.
+I've taken the step to update the project to Python 3 to ensure its compatibility with the latest language version. Although the project is not actively maintained, I've addressed the necessary changes for Python 3 support.
 
 if any issues arise, I commit to maintaining and resolving them in the future. Contributions from the community are welcome, and I appreciate any efforts to keep this project functional and relevant.
 
